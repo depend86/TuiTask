@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Versioning" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TuiTask.Aggregator\TuiTask.Aggregator.csproj" />
+    <ProjectReference Include="..\TuiTask.Common\TuiTask.Common.csproj" />
+    <ProjectReference Include="..\TuiTask.OtherProvider\TuiTask.OtherProvider.csproj" />
+    <ProjectReference Include="..\TuiTask.StandartProvider\TuiTask.StandartProvider.csproj" />
+  </ItemGroup>
+
+
+</Project>
